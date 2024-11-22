@@ -897,9 +897,9 @@ body {
 }
 
 
-@media (min-width: 360px) {
+@media (min-width: 375px) {
     .over{
-        height: 271px;
+        height: 211px;
     }
 
     .nav{
@@ -908,6 +908,8 @@ body {
 
     .nav img{
         margin-left: 10px;
+        width: 80px;
+        height: 80px;
     }
 
 
@@ -940,7 +942,7 @@ body {
     .menu {
         display: none;
         position: absolute;
-        top: 30px; /* Adjust based on your layout */
+        top: 70px; /* Adjust based on your layout */
         right: 0;
         background-color: white;
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -967,57 +969,57 @@ body {
     }
 
     .ban h1{
-        font-size: 70px;
-        margin-left: 28%;
-        margin-top: 25%;
+        font-size: 50px;
+        margin-left: 38%;
+        margin-top: 40%;
     }
 
 
     .book{
-        left: 25%;
-        top: 22%;
+        left: 28%;
+        top: 23%;
     }
 
     .book p{
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .booksub{
-        left: 20%;
+        left: 18%;
         top: 27%;
     }
 
     .booksub p{
-        font-size: 20px;
+        font-size: 15px;
     }
 
 
     .bookbt{
-        top: 30%;
-        left: 32%;
+        top: 29%;
+        left: 38%;
     }
 
     .bookbt button{
-       width: 150px;
-       height: 45px;
-       font-size: 20px;
+       width: 80px;
+       height: 40px;
+       font-size: 12px;
     }
 
     .info{
-        top: 41%;
+        top: 37%;
     }
 
     .info img{
-        width: 25px;
-        height: 25px;
+        width: 20px;
+        height: 20px;
     }
 
     .in{
-        width: 40%;
+        width: 35%;
     }
 
     .location h3{
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .location h4{
@@ -1025,7 +1027,7 @@ body {
     }
 
     .pop h3{
-        font-size: 15px;            
+        font-size: 10px;            
     }
 
     .pop h4{
@@ -1033,7 +1035,7 @@ body {
     }
 
     .mile h3{
-        font-size: 15px;
+        font-size: 10px;
     }
 
     .mile h4{
@@ -1066,6 +1068,81 @@ body {
     .ui{
         margin-bottom: 10%;
     }
+
+    .pf{
+        width: 300px;
+    }
+
+    .areas .name{
+        width: 270px;
+    }
+
+    .name p{
+        font-size: 28px;
+    }
+
+    .name h3{
+        font-size: 20px;
+    }
+
+    .ik{
+        width: 300px;
+    }
+
+    .ik img{
+        width: 25px;
+    }
+
+    .ik .road1{
+        width: 170px;
+    }
+
+    .road1 h3{
+        font-size: 20px;
+    }
+
+    .ik .kl1{
+        width: 80px;
+    }
+
+    .kl1 p{
+       font-size: 20px;
+    }
+
+
+    .ik .road2{
+        width: 170px;
+    }
+
+    .road2 h3{
+        font-size: 20px;
+    }
+
+    .ik .kl2{
+        width: 80px;
+    }
+
+    .kl2 p{
+       font-size: 20px;
+    }
+
+
+    .ik .road3{
+        width: 120px;
+    }
+
+    .road3 h3{
+        font-size: 20px;
+    }
+
+    .ik .kl3{
+        width: 80px;
+    }
+
+    .kl3 p{
+       font-size: 20px;
+    }
+
 
     .park{
         margin-bottom: 10%;
@@ -1112,31 +1189,35 @@ body {
         margin-bottom: 20%;
     }
 
-    .gimg{
+    .g3 .gimg{
         margin-bottom: 10%;
+        width: 300px;
     }
 
 
-    .exper{
+    .g3 .exper{
         margin-bottom: 10%;
+        width: 240px;
     }
 
 
-    .all{
+    .g3 .all{
         margin-bottom: 10%;
+        width: 240px;
     }
 
 
-    .perf{
+    .g3 .perf{
         margin-bottom: 10%;
+        width: 240px;
     }
 
     .join p{
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .join p .naira{
-        width: 40px;
+        width: 30px;
     }
 
     .benefit{
@@ -1163,12 +1244,30 @@ body {
         margin-bottom: 10%;
     }
 
+    .nita h4{
+        font-size: 20px;
+        width: 300px;
+        margin-left: 5%;
+    }
+
     .cooper{
         margin-bottom: 10%;
     }
 
+    .cooper h4{
+        font-size: 20px;
+        width: 300px;
+        margin-left: 5%;
+    }
+
+    .justin h4{
+        font-size: 20px;
+        width: 300px;
+        margin-left: 5%;
+    }
+
     .footer{
-        height: 300px;
+        height: 350px;
     }
 
     .footer .first{
@@ -1177,8 +1276,13 @@ body {
 
 
     .contact{
-        left: 45%;
-        top: 55%;
+        left: 5%;
+        top: 63%;
+        text-align: left;
+    }
+
+    .foot{
+        width: 300px;
     }
 
 }
